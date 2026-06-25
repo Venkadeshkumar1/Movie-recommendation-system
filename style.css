@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(249, 106, 106);
+}
+
+
+#parent{
+    width: 100%;
+    text-align: center;
+}
+.label{
+    font-weight: 800;
+    font-size: 40px;
+    padding-right: 20px;
+}
+button{
+    width: 200px;
+    font-size: 24px;
+    height: 60px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+#img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 1px;
+}
+#title{
+    font-size: 70px;
+    margin: 10px;
+}
+#movieName{
+    color: black;
+    display: block;
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 3px 4px grey;
+}
+
+
+#rating{
+    display: inline;
+    font: 30px;
+}
+input{
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 2px solid black;
+    background: transparent;
+}
+h2{
+    font-weight:lighter;
+}
+#time{
+    display: inline;
+    font: 30px;
+}
+label{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+#details{
+    width: 300px;
+    display: inline;
+    text-align: center;
+}
+#movie{
+    display: inline-block;
+    border-radius: 14px;
+    width: auto;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+    height: auto;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 2px rgb(0, 0, 0);
+}
+
+
+.delete-button {
+    margin-top: 12px;
+    padding: 10px 18px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    /* margin: auto; */
+    border-radius: 10px;
+    background-color: rgb(255, 75, 75);
+    color: white;
+    cursor: pointer;
+}
+
+
+.delete-button:hover {
+    background-color: rgb(200, 30, 30);
+}
+
+
+h1{
+    display: block;
+    margin: 20px;
+    font-size: 70px;
+    text-shadow: 2px 2px 8px black;
+    color: black;
+}
+#container{
+    display: flex;  
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(252, 150, 149);
+    justify-content: space-evenly;
+}
+#icon{
+    width: 20px;
+}
+#icon:hover{
+    width: 23px;
+    position: relative;
+    transition: .5s;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
